@@ -6,7 +6,7 @@
     <string>com.lol553.syn2GH</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/bin/sh</string>
+        <string>/bin/zsh</string>
         <string>-c</string>
         <string>/Users/lol553/Github/bin/syn2GH &gt; /tmp/syn2GH.log 2&gt;&amp;1</string>
     </array>
