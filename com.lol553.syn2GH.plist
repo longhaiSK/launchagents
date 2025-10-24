@@ -8,7 +8,7 @@
     <array>
         <string>/bin/zsh</string>
         <string>-c</string>
-        <string>/Users/lol553/Github/bin/syn2GH &gt; /tmp/syn2GH.log 2&gt;&amp;1</string>
+        <string>~/Github/bin/syn2GH &gt; /tmp/syn2GH.log 2&gt;&amp;1</string>
     </array>
     <key>StartInterval</key>
     <integer>3600</integer>
