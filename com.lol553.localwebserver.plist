@@ -7,22 +7,12 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/python3</string>
-        <string>-m</string>
-        <string>http.server</string>
-        <string>8080</string>
+        <string>/bin/zsh</string>
+        <string>-c</string>
+        <string>cd ~/GitHub/longhaiSK.github.io &amp;&amp; /usr/local/bin/python3 -m http.server 8080 &gt; ~/localwebserver.log 2&gt;&amp;1</string>
     </array>
-
-    <key>WorkingDirectory</key>
-    <string>/Users/lol553/GitHub/longhaiSK.github.io</string>
 
     <key>RunAtLoad</key>
     <true/>
-
-    <key>StandardOutPath</key>
-    <string>/Users/lol553/localwebserver.log</string>
-
-    <key>StandardErrorPath</key>
-    <string>/Users/lol553/localwebserver.err.log</string>
 </dict>
 </plist>
