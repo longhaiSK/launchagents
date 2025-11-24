@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>Label</key>
@@ -9,7 +10,8 @@
     <array>
         <string>/bin/zsh</string>
         <string>-c</string>
-        <string>cd ~/GitHub/longhaiSK.github.io &amp;&amp; /usr/local/bin/python3 -m http.server 8080 &gt; ~/localwebserver.log 2&gt;&amp;1</string>
+        <string>source ~/.zshrc &amp;&amp; cd ~/GitHub/longhaiSK.github.io &amp;&amp; python3 
+-m http.server 8080 &gt; ~/localwebserver.log 2&gt;&amp;1</string>
     </array>
 
     <key>RunAtLoad</key>
